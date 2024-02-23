@@ -22,4 +22,4 @@ jobs:
       - name: Build and push Docker image
         run: |
           DATE=$(date +"%d%m%Y")
-          docker buildx build --push --tag ghcr.io/benjamin-htr/front:$DATE --tag ghcr.io/benjamin-htr/front:latest .
+          docker buildx build --push --tag ghcr.io/benjamin-htr/tp_final_back:$DATE --tag ghcr.io/benjamin-htr/tp_final_back:latest .
